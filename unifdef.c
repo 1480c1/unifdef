@@ -43,7 +43,7 @@
  *   it possible to handle all "dodgy" directives correctly.
  */
 
-#include "unifdef.h"
+#include <unifdef.h>
 
 static const char copyright[] =
     #include "version.h"
