@@ -12,7 +12,7 @@ do
 
 	# strip carriage returns from error output
 	# in case we are trying to run on MinGW
-	tr -d '' >${t}.xerr <${t}.err
+	tr -d '\r' >${t}.xerr <${t}.err
 	mv ${t}.xerr ${t}.err
 
 	ok=true
